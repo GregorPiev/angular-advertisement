@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="row-cols-md-9">
+      <app-header></app-header>
+    </div>
+     
+    
+    <div class="cols-md-3"  style="margin-top: 150px;">
+      <app-description></app-description>
+      <app-type title="Категории"></app-type>
+    </div>
+    <div class="col-md-6  bd-content" style="margin-top: 150px;">
+      <main role="main">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+  
+    <div class="row-cols-md-3 position-sticky">
+      <app-search></app-search>
+      <app-footer></app-footer>
+    </div>
+  </div>
+</div>
